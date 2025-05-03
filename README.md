@@ -8,15 +8,25 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the required libraries.
+1.Load the Employee.csv dataset and display the first few rows.
 
-2.Upload and read the dataset.
+2.Check dataset structure and find any missing values.
 
-3.Check for any null values using the isnull() function.
+3.Display the count of employees who left vs stayed.
 
-4.From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+4.Encode the "salary" column using LabelEncoder to convert it into numeric values.
 
-5.Find the accuracy of the model and predict the required values by importing the required module from sklearn. 
+5.Define features x with selected columns and target y as the "left" column.
+
+6.Split the data into training and testing sets (80% train, 20% test).
+
+7.Create and train a DecisionTreeClassifier model using the training data.
+
+8.Predict the target values using the test data.
+
+9.Evaluate the model’s accuracy using accuracy score.
+
+10.Predict whether a new employee with specific features will leave or not. 
 
 ## Program:
 ```
